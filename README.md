@@ -1,2 +1,2 @@
-Personal Website:
+# Personal Website:
 -Displays resume & projects
