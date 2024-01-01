@@ -1,10 +1,72 @@
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+/* @font-face {
+    font-display: swap; Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. 
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    src: url('assets/fonts/lato-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('assets/fonts/lato-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ 
+} */
+
+  :root{
+    --bg-color: rgb(255, 255, 255);
+    --font-color: rgb(0, 0, 0);
+    --navbar-link-color: rgb(0, 0, 0);
+    --navbar-hover-link-color: rgb(100, 100, 100);
+    --hover-link-color: rgb(63, 52, 178);
   }
+
+
+  .nav-div{
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .nav-background{
+    z-index: 1;
+    background-color: var(--bg-color);
+    border-image: linear-gradient(to right, var(--bg-color), var(--font-color), var(--bg-color)) 10 0 10 0;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+  }
+
+  .nav-bar{
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    padding-left: 20px;
+    position: relative;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .nav-bar ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+  .nav-bar li{
+    list-style: none;
+    padding-right: 30px;
+  }
+
+
+.nav-bar li a,
+
+.nav-bar li a:visited {
+    text-decoration: none;
+    color: var(--navbar-link-color);
+    font-variant: small-caps;
+}
+
+.nav-bar li a:hover,
+
+.nav-ba li a:visited:hover {
+    color: var(--navbar-hover-link-color);
+}
+
+  
 
   body,
   td,
@@ -12,12 +74,85 @@
   tr,
   p,
   a {
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px
+    /* font-family: 'Lato', Verdana, Helvetica, sans-serif; */
+    font-family: 'Source Serif Pro', serif;
+    font-size: 14px;
+    font-weight: normal;
+
   }
 
-  name {
+  /* name {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 32px;
 
+  } */
+
+  h1{
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
   }
+
+  .my-name{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+.page {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.headshot{
+  width: 40%;
+  border-radius: 10%;
+}
+
+.headshot-figure{
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons li {
+    padding-right: 25px;
+    list-style: none;
+}
+
+.spaced-list li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.spaced-list li {
+    margin-left: 30px
+}
+
+
+.icons li a {
+    text-decoration: none;
+    color: var(--navbar-link-color);
+    font-size: 1.5rem;
+}
+
+.icons li a:hover,
+.icons li a:visited:hover {
+    color: var(--navbar-hover-link-color);
+}
+
+.my-name {
+    font-size: 2.5em;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    justify-content: center;
+}
+
+
