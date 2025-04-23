@@ -3,9 +3,9 @@ secondary_name: ""
 navbar_name: "Your Name"
 
 positions:
-- logo: /assets/images/badges/mcmaster.png  # Logo is optional
-  name: Position 1 with logo
-- name: Position 2 without logo
+# - logo: /assets/images/badges/mcmaster.png  # Logo is optional
+- name: Research Assistant at Creative Algorithms Lab
+# - name: Position 2 without logo
 
 
 email: "teeluckn@mcmaster.ca"
@@ -22,17 +22,18 @@ github: inhald
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hi! I'm a Mechatronics Engineering Student at McMaster University supervised by Dr. Stephen Kelly and Dr. Matthew Giamou. I am seeking MASc/PhD positions beginning in Fall 2026. 
+    Hi! I'm a Mechatronics Engineering student at McMaster University interested in Robot Learning. I am currently supervised by <a href="https://scholar.google.com/citations?user=xQDmZcAAAAAJ&hl=en"> Dr. Stephen Kelly </a> and <a href="https://scholar.google.ca/citations?user=TWcYp5sAAAAJ&hl=en"> Dr. Matthew Giamou. </a>
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    Previously, I worked on autonomous systems under the supervision of <a href="https://scholar.google.com/citations?user=9KcS4cMAAAAJ&hl=en"> Dr. Shahin Sirouspour,</a> and developed autonomous navigation system for scaled vehicles, by fusing LiDAR and depth data to generate SVM-like virtual barriers which execute collision-free path planning. 
+  </p>
+  <p>
+    I am currently seeking internships with academic or research labs for Fall 2025. 
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  # Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
 - name: McMaster University
