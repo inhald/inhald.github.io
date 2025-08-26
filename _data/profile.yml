@@ -4,7 +4,7 @@ navbar_name: "Dhilan Teeluckdharry"
 
 positions:
 # - logo: /assets/images/badges/mcmaster.png  # Logo is optional
-- name: Research Assistant at Creative Algorithms Lab
+# - name: Research Assistant at Creative Algorithms Lab
 # - name: Position 2 without logo
 
 
@@ -22,18 +22,15 @@ linkedin: dhilanteeluckdharry
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hi! I'm a Mechatronics Engineering student at McMaster University interested in Robot Learning. I am currently supervised by <a href="https://scholar.google.com/citations?user=xQDmZcAAAAAJ&hl=en"> Dr. Stephen Kelly </a> and <a href="https://scholar.google.ca/citations?user=TWcYp5sAAAAJ&hl=en"> Dr. Matthew Giamou. </a>
-  </p>
-  <p>
-    Previously, I worked on autonomous systems under the supervision of <a href="https://scholar.google.com/citations?user=9KcS4cMAAAAJ&hl=en"> Dr. Shahin Sirouspour,</a> and developed autonomous navigation system for scaled vehicles, by fusing LiDAR and depth data to generate SVM-like virtual barriers which execute collision-free path planning. 
-  </p>
-  <p>
-    I am currently seeking internships with academic or industry research labs for Fall 2025. 
+    I am an undergraduate student at McMaster University majoring in Mechatronics Engineering supervised by <a href="https://scholar.google.com/citations?user=xQDmZcAAAAAJ&hl=en"> Dr. Stephen Kelly</a>. My research interests relate to vision-based navigation and multi-modal perception. 
   </p>
 
-portrait_url: /assets/images/photos/profile.png
-# portrait_caption: >-
-  # Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  <p>
+    Previously, I worked with <a href="https://scholar.google.com/citations?user=9KcS4cMAAAAJ&hl=en"> Dr. Shahin Sirouspour</a> to develop an obstacle avoidance system for scaled autonomous vehicles. 
+  </p>
+portrait_url: /assets/images/photos/output.jpg
+portrait_caption: >-
+  Street Chess @ NPS, Toronto
 
 education:
 - name: McMaster University
@@ -59,6 +56,8 @@ experience:
 awards:
 - name: NSERC USRA
   date: 2024 & 2025 
+- name: H.L. Hooker Scholarship 
+  date: 2025 
 - name: Provost Medallion 
   date: 2023
 - name: Edwin Marwin Dalley Memorial Scholarship
