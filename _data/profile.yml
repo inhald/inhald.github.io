@@ -34,7 +34,7 @@ portrait_caption: >-
 
 education:
 - name: McMaster University
-  logo: /assets/images/badges/mcmaster.png
+  logo: /assets/images/badges/mcmaster_badge.png
   position: >- 
     Mechatronics Engineering <br/>
   date: Sep. 2022 - present
@@ -45,11 +45,11 @@ education:
 
 experience:
 - name: Creative Algorithms Lab
-  logo: /assets/images/badges/mcmaster.png
+  logo: /assets/images/badges/mcmaster_badge.png
   position: Research Assistant
   date: Oct. 2024 - Present
 - name: Computational Vision Lab
-  logo: /assets/images/badges/mcmaster.png
+  logo: /assets/images/badges/mcmaster_badge.png
   position: Research Assistant  
   date: May. 2024 - Aug. 2024
 
